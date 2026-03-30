@@ -1,0 +1,22 @@
+{
+  "name": "backend-rag-demo",
+  "version": "1.0.0",
+  "description": "RAG demo - SQL + OpenAI for natural language Q&A over a school database",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.2",
+    "openai": "^4.24.1"
+  }
+}
